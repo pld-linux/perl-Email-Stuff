@@ -42,8 +42,19 @@ modification support. To re-iterate, this is very much a module for
 those "slap it together and send it off" situations, but that still
 has enough grunt behind the scenes to do things properly.
 
-# %description -l pl
-# TODO
+%description -l pl
+Email::Stuff, tak jak nazwa sugeruje, to do¶æ przypadkowy modu³
+u¿ywany do wysy³ania "rzeczy" do ludzi przy u¿yciu najbardziej
+popularnych metod. Jest to raczej wysokopoziomowy modu³ zaprojektowany
+w celu u³atwienia u¿ycia, ale zaimplementowany w oparciu o zwiêz³e i
+poprawne modu³y Email::.
+
+Email::Stuff jest typowo u¿ywany do tworzenia listów i wysy³ania ich
+w jednej instrukcji. I jest pewny tylko przy u¿ywaniu do tworzenia i
+wysy³ania listów. Jako taki nie zawiera zerow± obs³ugê parsowania i
+niewielk± obs³ugê modyfikacji. Jeszcze raz - jest to modu³ to sytuacji
+typu "sklej to razem i wy¶lij", ale bêd±cy jeszcze w stanie zrobiæ to
+poprawnie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
