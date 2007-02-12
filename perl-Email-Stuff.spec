@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Stuff
 Summary:	Email::Stuff - email stuff to people and things... and, like, stuff
-Summary(pl):	Email::Stuff - rzeczy zwi±zane z e-mailami itp.
+Summary(pl.UTF-8):   Email::Stuff - rzeczy zwiƒÖzane z e-mailami itp.
 Name:		perl-Email-Stuff
 Version:	0.06
 Release:	1
@@ -42,18 +42,18 @@ modification support. To re-iterate, this is very much a module for
 those "slap it together and send it off" situations, but that still
 has enough grunt behind the scenes to do things properly.
 
-%description -l pl
-Email::Stuff, tak jak nazwa sugeruje, to do∂Ê przypadkowy modu≥
-uøywany do wysy≥ania "rzeczy" do ludzi przy uøyciu najbardziej
-popularnych metod. Jest to raczej wysokopoziomowy modu≥ zaprojektowany
-w celu u≥atwienia uøycia, ale zaimplementowany w oparciu o zwiÍz≥e i
-poprawne modu≥y Email::.
+%description -l pl.UTF-8
+Email::Stuff, tak jak nazwa sugeruje, to do≈õƒá przypadkowy modu≈Ç
+u≈ºywany do wysy≈Çania "rzeczy" do ludzi przy u≈ºyciu najbardziej
+popularnych metod. Jest to raczej wysokopoziomowy modu≈Ç zaprojektowany
+w celu u≈Çatwienia u≈ºycia, ale zaimplementowany w oparciu o zwiƒôz≈Çe i
+poprawne modu≈Çy Email::.
 
-Email::Stuff jest typowo uøywany do tworzenia listÛw i wysy≥ania ich
-w jednej instrukcji. I jest pewny tylko przy uøywaniu do tworzenia i
-wysy≥ania listÛw. Jako taki nie zawiera zerow± obs≥ugÍ parsowania i
-niewielk± obs≥ugÍ modyfikacji. Jeszcze raz - jest to modu≥ to sytuacji
-typu "sklej to razem i wy∂lij", ale bÍd±cy jeszcze w stanie zrobiÊ to
+Email::Stuff jest typowo u≈ºywany do tworzenia list√≥w i wysy≈Çania ich
+w jednej instrukcji. I jest pewny tylko przy u≈ºywaniu do tworzenia i
+wysy≈Çania list√≥w. Jako taki nie zawiera zerowƒÖ obs≈Çugƒô parsowania i
+niewielkƒÖ obs≈Çugƒô modyfikacji. Jeszcze raz - jest to modu≈Ç to sytuacji
+typu "sklej to razem i wy≈õlij", ale bƒôdƒÖcy jeszcze w stanie zrobiƒá to
 poprawnie.
 
 %prep
