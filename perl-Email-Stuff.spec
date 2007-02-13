@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Stuff
 Summary:	Email::Stuff - email stuff to people and things... and, like, stuff
-Summary(pl.UTF-8):   Email::Stuff - rzeczy związane z e-mailami itp.
+Summary(pl.UTF-8):	Email::Stuff - rzeczy związane z e-mailami itp.
 Name:		perl-Email-Stuff
 Version:	0.06
 Release:	1
