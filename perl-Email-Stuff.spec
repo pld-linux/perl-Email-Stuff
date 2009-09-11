@@ -8,23 +8,23 @@
 Summary:	Email::Stuff - email stuff to people and things... and, like, stuff
 Summary(pl.UTF-8):	Email::Stuff - rzeczy związane z e-mailami itp.
 Name:		perl-Email-Stuff
-Version:	2.09
+Version:	2.100
 Release:	1
-# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7e4017bef04de636121d47ded2bbb4c1
+# Source0-md5:	692e869873d2168730e528c14353846b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Clone >= 0.13
-BuildRequires:	perl-Email-MIME >= 1.6
-BuildRequires:	perl-Email-MIME-Creator >= 1.3
-BuildRequires:	perl-Email-Send >= 1.42
-BuildRequires:	perl-File-Slurp >= 9999.04
+BuildRequires:	perl-Email-MIME >= 1.858
+BuildRequires:	perl-Email-MIME-Creator >= 1.451
+BuildRequires:	perl-Email-Send >= 2.185
+BuildRequires:	perl-Email-Simple >= 1.998
 BuildRequires:	perl-File-Type >= 0.22
-BuildRequires:	perl-prefork >= 0.02
+BuildRequires:	perl-Params-Util >= 0.23
+BuildRequires:	perl-prefork >= 1.01
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
