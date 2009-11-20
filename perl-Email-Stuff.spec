@@ -8,17 +8,16 @@
 Summary:	Email::Stuff - email stuff to people and things... and, like, stuff
 Summary(pl.UTF-8):	Email::Stuff - rzeczy związane z e-mailami itp.
 Name:		perl-Email-Stuff
-Version:	2.100
+Version:	2.101
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	692e869873d2168730e528c14353846b
+# Source0-md5:	e789fe76edfeab07febc359341a59960
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Email-MIME >= 1.858
-BuildRequires:	perl-Email-MIME-Creator >= 1.451
+BuildRequires:	perl-Email-MIME >= 1.901
 BuildRequires:	perl-Email-Send >= 2.185
 BuildRequires:	perl-Email-Simple >= 1.998
 BuildRequires:	perl-File-Type >= 0.22
