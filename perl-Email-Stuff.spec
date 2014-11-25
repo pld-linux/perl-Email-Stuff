@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Email
 %define	pnam	Stuff
+%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Stuff - email stuff to people and things... and, like, stuff
 Summary(pl.UTF-8):	Email::Stuff - rzeczy związane z e-mailami itp.
 Name:		perl-Email-Stuff
@@ -14,16 +14,17 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9f38f16773000ea8ae42cfdaf68d0089
+URL:		http://search.cpan.org/dist/Email-Stuff/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Email-MIME >= 1.901
 BuildRequires:	perl-Email-Send >= 2.185
 BuildRequires:	perl-Email-Simple >= 1.998
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 BuildRequires:	perl-File-Type >= 0.22
 BuildRequires:	perl-Params-Util >= 0.23
 BuildRequires:	perl-prefork >= 1.01
-BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -48,8 +49,8 @@ popularnych metod. Jest to raczej wysokopoziomowy moduł zaprojektowany
 w celu ułatwienia użycia, ale zaimplementowany w oparciu o zwięzłe i
 poprawne moduły Email::.
 
-Email::Stuff jest typowo używany do tworzenia listów i wysyłania ich
-w jednej instrukcji. I jest pewny tylko przy używaniu do tworzenia i
+Email::Stuff jest typowo używany do tworzenia listów i wysyłania ich w
+jednej instrukcji. I jest pewny tylko przy używaniu do tworzenia i
 wysyłania listów. Jako taki nie zawiera zerową obsługę parsowania i
 niewielką obsługę modyfikacji. Jeszcze raz - jest to moduł to sytuacji
 typu "sklej to razem i wyślij", ale będący jeszcze w stanie zrobić to
