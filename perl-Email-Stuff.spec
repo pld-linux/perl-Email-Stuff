@@ -4,7 +4,6 @@
 
 %define	pdir	Email
 %define	pnam	Stuff
-%include	/usr/lib/rpm/macros.perl
 Summary:	Email::Stuff - email stuff to people and things... and, like, stuff
 Summary(pl.UTF-8):	Email::Stuff - rzeczy związane z e-mailami itp.
 Name:		perl-Email-Stuff
